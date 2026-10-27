@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ShieldCheck, ArrowRight, Check, Eye } from "lucide-react";
 import { SERVICES_DATA, ServiceItem } from "../config/services";
 import { ServiceDetailModal } from "./ServiceDetailModal";
@@ -10,6 +10,24 @@ interface ServicesSectionProps {
 export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectService }) => {
   const [selectedService, setSelectedService] = useState<ServiceItem | null>(null);
 
+  // Check URL hash for direct service deep-linking (e.g. #service-sports-nets)
+  useEffect(() => {
+    const handleHashCheck = () => {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith("#service-")) {
+        const serviceId = hash.replace("#service-", "");
+        const matched = SERVICES_DATA.find((s) => s.id === serviceId);
+        if (matched) {
+          setSelectedService(matched);
+        }
+      }
+    };
+
+    handleHashCheck();
+    window.addEventListener("hashchange", handleHashCheck);
+    return () => window.removeEventListener("hashchange", handleHashCheck);
+  }, []);
+
   const handleInquire = (service: ServiceItem) => {
     if (onSelectService) {
       onSelectService(service.title);
@@ -19,6 +37,16 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
       const top = contactElem.getBoundingClientRect().top + window.scrollY - 80;
       window.scrollTo({ top, behavior: "smooth" });
     }
+  };
+
+  const handleOpenDetail = (service: ServiceItem) => {
+    setSelectedService(service);
+    window.history.replaceState(null, "", `#service-${service.id}`);
+  };
+
+  const handleCloseDetail = () => {
+    setSelectedService(null);
+    window.history.replaceState(null, "", "#services");
   };
 
   return (
@@ -35,7 +63,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
             Safety Net &amp; Invisible Grill Services
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed">
-            Professional installation solutions designed to protect your home, balconies, windows, and outdoor spaces across Hyderabad.
+            Professional installation solutions designed to protect your home, balconies, windows, sports areas, and outdoor spaces across Hyderabad.
           </p>
         </div>
 
@@ -44,13 +72,16 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           {SERVICES_DATA.map((service) => (
             <div
               key={service.id}
+              id={`service-card-${service.id}`}
               className="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col group"
             >
-              {/* Image Frame */}
+              {/* Image Frame with explicit dimensions to prevent CLS */}
               <div className="relative aspect-[16/10] overflow-hidden bg-slate-900">
                 <img
                   src={service.image}
                   alt={`${service.title} installation in Hyderabad`}
+                  width={640}
+                  height={400}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -84,7 +115,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
                   <button
                     type="button"
-                    onClick={() => setSelectedService(service)}
+                    onClick={() => handleOpenDetail(service)}
                     className="inline-flex items-center gap-1 text-xs font-semibold text-slate-700 hover:text-primary transition-colors py-1.5 px-2 rounded-lg hover:bg-orange-50 cursor-pointer"
                   >
                     <Eye className="h-3.5 w-3.5" />
@@ -111,9 +142,9 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
       {selectedService && (
         <ServiceDetailModal
           service={selectedService}
-          onClose={() => setSelectedService(null)}
+          onClose={handleCloseDetail}
           onSelectForQuote={(title) => {
-            setSelectedService(null);
+            handleCloseDetail();
             handleInquire({ ...selectedService, title });
           }}
         />

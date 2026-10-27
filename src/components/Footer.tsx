@@ -136,6 +136,11 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
+                <a href="#services" onClick={(e) => scrollTo("services", e)} className="hover:text-primary transition-colors">
+                  Sports Nets &amp; Cricket Nets
+                </a>
+              </li>
+              <li>
                 <a href="#contact" onClick={(e) => scrollTo("contact", e)} className="hover:text-primary transition-colors">
                   Custom Residential Netting
                 </a>

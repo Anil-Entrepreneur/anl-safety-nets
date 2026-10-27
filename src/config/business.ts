@@ -3,10 +3,13 @@
  * Used across components, contact handlers, metadata, and structured data
  */
 
+import { SEO_CONFIG } from "./seo";
+
 export const BUSINESS_CONFIG = {
   name: "ANL Safety Nets",
   shortName: "ANL Safety Nets",
   tagline: "Safety Nets and Invisible Grills in Hyderabad",
+  siteUrl: SEO_CONFIG.productionDomain,
   
   // Contact details
   phone: "9704042577",
@@ -52,7 +55,8 @@ export const BUSINESS_CONFIG = {
     "Balcony Safety Nets",
     "Bird & Pigeon Protection Nets",
     "Invisible Grills",
-    "Balcony Protection Solutions",
+    "Sports Nets",
     "Children Safety Nets",
+    "Balcony Protection Solutions"
   ]
 } as const;

@@ -122,8 +122,11 @@ export const Hero: React.FC = () => {
                     <img
                       src={item.image}
                       alt={item.caption}
+                      width={500}
+                      height={500}
                       className="w-full h-full object-cover object-center"
                       loading={index === 0 ? "eager" : "lazy"}
+                      fetchPriority={index === 0 ? "high" : undefined}
                     />
                     
                     {/* Bottom gradient overlay with real caption */}

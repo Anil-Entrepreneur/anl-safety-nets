@@ -106,6 +106,36 @@ export const SERVICES_DATA: ServiceItem[] = [
     ctaText: "Inquire Bird Protection Nets"
   },
   {
+    id: "sports-nets",
+    title: "Sports Nets",
+    shortDescription: "Heavy-duty impact-resistant sports netting for cricket practice pitches, badminton courts, terrace sports arenas, and football enclosures.",
+    fullDescription: "ANL Safety Nets provides professional-grade sports netting designed to contain high-velocity balls and protect surroundings. Whether you require cricket pitch practice lanes, terrace sports setups, school playground enclosures, or turf arena netting in Hyderabad, our team customizes the cage dimensions, roof netting, and tension wires for reliable containment.",
+    image: "/images/projects/sports-net-installation.jpeg",
+    features: [
+      "High-impact UV-stabilized nylon & HDPE netting",
+      "Custom cages for indoor cricket pitches & box cricket",
+      "Ceiling and side wall protective enclosure",
+      "Heavy-duty border ropes and stainless steel wire tensioning"
+    ],
+    varieties: [
+      "Cricket Practice Netting",
+      "Box Cricket & Turf Arenas",
+      "Terrace Sports Nets",
+      "School & Sports Club Net Enclosures"
+    ],
+    faqs: [
+      {
+        q: "Can the sports net withstand high-speed leather cricket ball hits?",
+        a: "Yes, we use commercial-grade, multi-strand braided nets with high impact resistance specifically designed for heavy cricket bowling and batting practice."
+      },
+      {
+        q: "Can you install sports nets on rooftop terraces or indoor halls?",
+        a: "Yes, we install customized frame supports and tension wire anchorages to suit rooftop terraces, open grounds, or indoor sports academies in Hyderabad."
+      }
+    ],
+    ctaText: "Inquire Sports Nets"
+  },
+  {
     id: "children-safety-nets",
     title: "Children Safety Nets",
     shortDescription: "Specialized safety net installations designed to prevent toddlers and young children from slipping through open balcony railings.",

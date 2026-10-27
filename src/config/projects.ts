@@ -1,13 +1,13 @@
 /**
  * Genuine installation photographs supplied for ANL Safety Nets.
  * Note: hari_1_-_Copy_874b6f1b.jpeg is an exact duplicate of hari_1_874b6f1b.jpeg (excluded).
- * All 6 unique images showcase real installations in Hyderabad residential spaces.
+ * All images showcase real installations in Hyderabad residential and sports spaces.
  */
 
 export interface ProjectItem {
   id: string;
   title: string;
-  category: "Balcony Safety Nets" | "Invisible Grills" | "Bird Protection Nets" | "Balcony Protection";
+  category: "Balcony Safety Nets" | "Invisible Grills" | "Bird Protection Nets" | "Balcony Protection" | "Sports Nets";
   tag: string;
   description: string;
   image: string;
@@ -25,6 +25,16 @@ export const REAL_PROJECTS: ProjectItem[] = [
     image: "/images/projects/safety-net-balcony-01.jpeg",
     alt: "Balcony safety net installation with high tensile white mesh netting secured to balcony railings",
     aspectRatio: "3/4"
+  },
+  {
+    id: "proj-7",
+    title: "Sports Nets Installation",
+    category: "Sports Nets",
+    tag: "Sports Nets",
+    description: "High-impact sports net installation for indoor cricket practice pitches and sports arenas with heavy-duty mesh and perimeter wire tensioning.",
+    image: "/images/projects/sports-net-installation.jpeg",
+    alt: "Indoor cricket practice pitch sports net installation with green protective mesh lanes and roof netting",
+    aspectRatio: "4/3"
   },
   {
     id: "proj-2",
@@ -83,6 +93,11 @@ export const HERO_CAROUSEL_IMAGES = [
     image: "/images/projects/invisible-grill-balcony-01.jpeg",
     title: "Invisible Grills",
     caption: "Modern high-tensile stainless steel invisible grills preserving open balcony views"
+  },
+  {
+    image: "/images/projects/sports-net-installation.jpeg",
+    title: "Sports Nets",
+    caption: "Professional cricket practice pitches and arena sports netting in Hyderabad"
   },
   {
     image: "/images/projects/balcony-safety-net-city-view.jpeg",

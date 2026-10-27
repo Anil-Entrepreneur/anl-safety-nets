@@ -26,6 +26,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
     "Balcony Safety Nets",
     "Invisible Grills",
     "Bird & Pigeon Protection Nets",
+    "Sports Nets",
     "Children Safety Nets",
     "Balcony Protection Solutions",
     "Custom Requirement"

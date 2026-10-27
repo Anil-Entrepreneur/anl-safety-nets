@@ -12,6 +12,7 @@ export const RecentWorks: React.FC = () => {
     "Balcony Safety Nets",
     "Invisible Grills",
     "Bird Protection Nets",
+    "Sports Nets",
     "Balcony Protection"
   ];
 
