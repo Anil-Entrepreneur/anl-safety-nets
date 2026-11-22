@@ -1,0 +1,21 @@
+{
+  "name": "ANL Safety Nets",
+  "short_name": "ANL Safety Nets",
+  "description": "Safety Nets and Invisible Grills in Hyderabad, Tamil Nadu & Andhra Pradesh",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff5533",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

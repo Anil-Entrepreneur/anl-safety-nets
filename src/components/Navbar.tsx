@@ -39,11 +39,11 @@ export const Navbar: React.FC = () => {
               onClick={(e) => scrollToSection("home", e)}
               className="flex items-center gap-2.5 group cursor-pointer"
             >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-orange-50 border border-orange-200/80 p-1 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform overflow-hidden">
+              <div className="h-11 sm:h-12 w-auto rounded-xl bg-white border border-orange-200/80 px-1.5 py-1 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform overflow-hidden">
                 <img
-                  src="/assets/aistudio/logo_new_3c42c695.png"
+                  src="/assets/aistudio/ANL_Safety_Nets__Secure_Shelter_Logo__1__6525429b.png"
                   alt="ANL Safety Nets Logo"
-                  className="w-full h-full object-contain"
+                  className="h-full w-auto object-contain"
                 />
               </div>
               <div className="flex flex-col">

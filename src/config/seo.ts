@@ -15,7 +15,7 @@ export const SEO_CONFIG = {
   productionDomain: "https://anlsafetynets.netlify.app",
   
   siteName: "ANL Safety Nets",
-  defaultTitle: "ANL Safety Nets | Balcony Safety Nets & Invisible Grills in Hyderabad",
+  defaultTitle: "ANL Safety Nets – Safety Nets and Invisible Grills in Hyderabad, Tamil Nadu & Andhra Pradesh",
   titleTemplate: "%s | ANL Safety Nets Hyderabad",
   
   defaultDescription:

@@ -110,9 +110,9 @@ export const RecentWorks: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/919704042577?text=${encodeURIComponent(
+                    href={BUSINESS_CONFIG.getWhatsAppMessageUrl(
                       `Hello ANL Safety Nets, I am inquiring about the ${project.title} installation for my space.`
-                    )}`}
+                    )}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-bold text-primary hover:text-orange-600 flex items-center gap-1"
@@ -179,9 +179,9 @@ export const RecentWorks: React.FC = () => {
 
               <div className="flex items-center gap-3 shrink-0">
                 <a
-                  href={`https://wa.me/919704042577?text=${encodeURIComponent(
+                  href={BUSINESS_CONFIG.getWhatsAppMessageUrl(
                     `Hello ANL Safety Nets, I saw your ${lightboxProject.title} photograph and would like to request a quote for my apartment in Hyderabad.`
-                  )}`}
+                  )}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold transition-colors"

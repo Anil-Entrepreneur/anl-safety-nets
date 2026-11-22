@@ -44,9 +44,9 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
     };
   }, [service, onClose]);
 
-  const whatsappInquireUrl = `https://wa.me/919704042577?text=${encodeURIComponent(
+  const whatsappInquireUrl = BUSINESS_CONFIG.getWhatsAppMessageUrl(
     `Hello ANL Safety Nets, I would like to inquire about ${service.title} installation for my space in Hyderabad.`
-  )}`;
+  );
 
   return (
     <div

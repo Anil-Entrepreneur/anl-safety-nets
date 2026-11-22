@@ -62,7 +62,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
     if (!formData.phone.trim()) {
       newErrors.phone = "Please enter your mobile phone number.";
     } else if (!isValidPhone) {
-      newErrors.phone = "Please enter a valid 10-digit mobile number (e.g. 9704042577).";
+      newErrors.phone = "Please enter a valid 10-digit mobile number (e.g. 95773 93999).";
     }
 
     if (formData.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
@@ -183,7 +183,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
                     rel="noopener noreferrer"
                     className="font-bold text-slate-900 hover:text-emerald-700 text-lg block mt-0.5"
                   >
-                    +91 {BUSINESS_CONFIG.whatsappNumber}
+                    {BUSINESS_CONFIG.displayPhone}
                   </a>
                   <span className="text-xs text-slate-500">
                     Fast response &amp; instant photo quotes
@@ -297,7 +297,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
                         setFormData({ ...formData, phone: e.target.value });
                         if (errors.phone) setErrors({ ...errors, phone: "" });
                       }}
-                      placeholder="e.g. 9704042577"
+                      placeholder="e.g. 95773 93999"
                       className={`w-full px-4 py-3 rounded-xl bg-white border ${
                         errors.phone ? "border-red-500 focus:ring-red-400" : "border-slate-300 focus:ring-primary"
                       } focus:outline-none focus:ring-2 text-slate-900 text-sm`}

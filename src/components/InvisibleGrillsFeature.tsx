@@ -137,9 +137,9 @@ export const InvisibleGrillsFeature: React.FC = () => {
             {/* CTAs */}
             <div className="pt-2 flex flex-wrap items-center gap-3">
               <a
-                href={`https://wa.me/919704042577?text=${encodeURIComponent(
+                href={BUSINESS_CONFIG.getWhatsAppMessageUrl(
                   "Hello ANL Safety Nets, I am interested in getting Invisible Grills installed on my balcony in Hyderabad. Please share quotation details."
-                )}`}
+                )}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm transition-all"

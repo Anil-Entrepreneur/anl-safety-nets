@@ -182,7 +182,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     faqs: [
       {
         q: "How do I request a site inspection in Kukatpally or LB Nagar?",
-        a: "You can click 'Request a Quote' or reach out via WhatsApp/Phone at 9704042577 to schedule a convenient inspection."
+        a: "You can click 'Request a Quote' or reach out via WhatsApp/Phone at 95773 93999 to schedule a convenient inspection."
       }
     ],
     ctaText: "Get Balcony Protection Quote"

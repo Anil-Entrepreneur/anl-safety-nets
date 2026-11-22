@@ -12,11 +12,11 @@ export const BUSINESS_CONFIG = {
   siteUrl: SEO_CONFIG.productionDomain,
   
   // Contact details
-  phone: "9704042577",
-  displayPhone: "+91 9704042577",
-  internationalPhone: "+919704042577",
-  whatsappNumber: "9704042577",
-  whatsappInternational: "+919704042577",
+  phone: "95773 93999",
+  displayPhone: "+91 95773 93999",
+  internationalPhone: "+919577393999",
+  whatsappNumber: "95773 93999",
+  whatsappInternational: "+919577393999",
   email: "harigosala2013@gmail.com",
   
   // Location & Service Area
@@ -27,11 +27,13 @@ export const BUSINESS_CONFIG = {
   serviceAreasDescription: "Kukatpally, LB Nagar, and across Hyderabad, Telangana, India",
   
   // Direct Action URLs
-  callUrl: "tel:+919704042577",
+  callUrl: "tel:+919577393999",
   emailUrl: "mailto:harigosala2013@gmail.com?subject=Installation%20Enquiry%20-%20ANL%20Safety%20Nets",
-  whatsappDefaultUrl: `https://wa.me/919704042577?text=${encodeURIComponent(
+  whatsappDefaultUrl: `https://wa.me/919577393999?text=${encodeURIComponent(
     "Hello ANL Safety Nets, I am interested in your safety net or invisible grill installation services in Hyderabad. Please share the details and quotation."
   )}`,
+  getWhatsAppMessageUrl: (message: string) =>
+    `https://wa.me/919577393999?text=${encodeURIComponent(message)}`,
   getWhatsAppQuoteUrl: (details: {
     name: string;
     phone: string;
@@ -47,7 +49,7 @@ export const BUSINESS_CONFIG = {
       `*Locality / Area:* ${encodeURIComponent(details.locality || "Hyderabad")}%0a` +
       (details.email ? `*Email:* ${encodeURIComponent(details.email)}%0a` : "") +
       (details.message ? `*Notes:* ${encodeURIComponent(details.message)}` : "");
-    return `https://wa.me/919704042577?text=${text}`;
+    return `https://wa.me/919577393999?text=${text}`;
   },
   
   // Key categories
