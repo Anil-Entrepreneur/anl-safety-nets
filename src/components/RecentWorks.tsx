@@ -72,6 +72,8 @@ export const RecentWorks: React.FC = () => {
                 <img
                   src={project.image}
                   alt={project.alt}
+                  width={640}
+                  height={480}
                   loading="lazy"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />

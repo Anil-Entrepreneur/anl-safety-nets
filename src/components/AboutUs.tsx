@@ -110,7 +110,7 @@ export const AboutUs: React.FC = () => {
               <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">Tailored Solutions</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Tailored Solutions</h3>
                   <p className="text-xs text-slate-500 mt-0.5">Measurements customized to your balcony and window openings.</p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export const AboutUs: React.FC = () => {
               <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">Durable Net &amp; Grill Materials</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Durable Net &amp; Grill Materials</h3>
                   <p className="text-xs text-slate-500 mt-0.5">High-tensile polyethylene netting and marine-grade stainless steel cables.</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export const AboutUs: React.FC = () => {
               <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">Direct Quotation Assistance</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Direct Quotation Assistance</h3>
                   <p className="text-xs text-slate-500 mt-0.5">Transparent consultation over phone, WhatsApp, or on-site visits.</p>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export const AboutUs: React.FC = () => {
               <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">Hyderabad Service Coverage</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Hyderabad Service Coverage</h3>
                   <p className="text-xs text-slate-500 mt-0.5">Focus areas in Kukatpally, Tambaram, Tamil Nadu, and adjacent localities.</p>
                 </div>
               </div>

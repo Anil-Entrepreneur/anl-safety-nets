@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Canonical Sitemap URL
-Sitemap: https://anlsafetynets.netlify.app/sitemap.xml
+Sitemap: https://anlsafetynets.com/sitemap.xml

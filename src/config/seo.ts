@@ -11,8 +11,8 @@
  */
 
 export const SEO_CONFIG = {
-  // Current production domain on Netlify (change here when custom domain is connected)
-  productionDomain: "https://anlsafetynets.netlify.app",
+  // Official production domain
+  productionDomain: "https://anlsafetynets.com",
   
   siteName: "ANL Safety Nets",
   defaultTitle: "ANL Safety Nets – Safety Nets and Invisible Grills in Hyderabad, Tamil Nadu & Andhra Pradesh",
@@ -38,7 +38,7 @@ export const SEO_CONFIG = {
   ],
   
   defaultOgImage: "/images/projects/invisible-grill-balcony-01.jpeg",
-  logoImage: "/assets/aistudio/logo_new_3c42c695.png",
+  logoImage: "/assets/aistudio/ANL_Safety_Nets__Secure_Shelter_Logo__1__6525429b.png",
   
   locale: "en_IN",
   region: "IN-TG", // Telangana, India

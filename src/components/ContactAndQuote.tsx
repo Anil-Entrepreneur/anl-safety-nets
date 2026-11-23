@@ -246,7 +246,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
                 <div className="mb-6 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 flex items-start gap-3">
                   <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
-                    <h5 className="font-bold text-sm">Quote Request Prepared!</h5>
+                    <h4 className="font-bold text-sm">Quote Request Prepared!</h4>
                     <p className="text-xs text-emerald-700 mt-1">
                       Your quotation request has been opened in WhatsApp to connect directly with ANL Safety Nets. You can also call us directly at {BUSINESS_CONFIG.displayPhone}.
                     </p>

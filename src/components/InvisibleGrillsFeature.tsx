@@ -54,7 +54,8 @@ export const InvisibleGrillsFeature: React.FC = () => {
               <div className="relative aspect-[16/10] w-full">
                 <img
                   src={grillImages[activeImage].src}
-                  alt={grillImages[activeImage].caption}
+                  alt={`${grillImages[activeImage].title} - ${grillImages[activeImage].caption}`}
+                  loading="lazy"
                   className="w-full h-full object-cover transition-opacity duration-500"
                 />
                 
@@ -82,7 +83,8 @@ export const InvisibleGrillsFeature: React.FC = () => {
                   >
                     <img
                       src={img.src}
-                      alt={img.title}
+                      alt={`${img.title} - ${img.caption}`}
+                      loading="lazy"
                       className="w-full h-full object-cover"
                     />
                   </button>
