@@ -101,7 +101,7 @@ export const AboutUs: React.FC = () => {
                 ANL Safety Nets provides safety net and balcony protection solutions for residential and commercial requirements in Hyderabad. We help customers explore suitable options for balcony safety, bird protection, and invisible grills based on their space and installation needs. Contact us to discuss your requirements and request a quotation.
               </p>
               <p className="text-sm sm:text-base text-slate-600">
-                Operating across key residential hubs in Hyderabad—including Kukatpally and LB Nagar—our team assists homeowners, apartment associations, and property managers in choosing reliable barriers that safeguard families without compromising ventilation or views.
+                Operating across key residential hubs—including Kukatpally, Hyderabad and Tambaram, Tamil Nadu—our team assists homeowners, apartment associations, and property managers in choosing reliable barriers that safeguard families without compromising ventilation or views.
               </p>
             </div>
 
@@ -135,7 +135,7 @@ export const AboutUs: React.FC = () => {
                 <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-slate-900 text-sm">Hyderabad Service Coverage</h4>
-                  <p className="text-xs text-slate-500 mt-0.5">Focus areas in Kukatpally, LB Nagar, and adjacent localities.</p>
+                  <p className="text-xs text-slate-500 mt-0.5">Focus areas in Kukatpally, Tambaram, Tamil Nadu, and adjacent localities.</p>
                 </div>
               </div>
             </div>

@@ -23,8 +23,8 @@ export const BUSINESS_CONFIG = {
   city: "Hyderabad",
   state: "Telangana",
   country: "India",
-  primaryLocalities: ["Kukatpally", "LB Nagar"],
-  serviceAreasDescription: "Kukatpally, LB Nagar, and across Hyderabad, Telangana, India",
+  primaryLocalities: ["Kukatpally", "Tambaram, Tamil Nadu"],
+  serviceAreasDescription: "Kukatpally, Tambaram, Tamil Nadu, and across Hyderabad, Telangana, India",
   
   // Direct Action URLs
   callUrl: "tel:+919577393999",

@@ -24,11 +24,11 @@ export const Footer: React.FC = () => {
           {/* Brand Column */}
           <div>
             <div className="flex items-center gap-2.5 mb-5">
-              <div className="w-10 h-10 rounded-xl bg-orange-50/10 border border-orange-500/30 p-1 flex items-center justify-center shadow-md bg-white overflow-hidden">
+              <div className="h-11 w-auto rounded-xl border border-orange-500/30 px-1.5 py-1 flex items-center justify-center shadow-md bg-white overflow-hidden">
                 <img
-                  src="/assets/aistudio/logo_new_3c42c695.png"
+                  src="/assets/aistudio/ANL_Safety_Nets__Secure_Shelter_Logo__1__6525429b.png"
                   alt="ANL Safety Nets Logo"
-                  className="w-full h-full object-contain"
+                  className="h-full w-auto object-contain"
                 />
               </div>
               <span className="font-cinematic font-bold text-2xl text-white">
@@ -55,7 +55,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary shrink-0" />
-                <span>Kukatpally &amp; LB Nagar, Hyderabad</span>
+                <span>Kukatpally, Hyderabad &amp; Tambaram, Tamil Nadu</span>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export const Footer: React.FC = () => {
               Service Areas
             </h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-              Providing installation assistance across Kukatpally, LB Nagar, and all residential neighborhoods in Hyderabad.
+              Providing installation assistance across Kukatpally, Tambaram, Tamil Nadu, and all residential neighborhoods in Hyderabad.
             </p>
 
             <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800">

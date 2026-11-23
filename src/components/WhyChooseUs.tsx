@@ -22,7 +22,7 @@ export const WhyChooseUs: React.FC = () => {
     {
       icon: <MapPin className="h-8 w-8 text-primary" />,
       title: "Dedicated Hyderabad Service",
-      description: "Active local service coverage across Kukatpally, LB Nagar, and residential communities throughout Hyderabad, Telangana."
+      description: "Active local service coverage across Kukatpally, Tambaram, Tamil Nadu, and residential communities throughout Hyderabad, Telangana."
     }
   ];
 
@@ -70,7 +70,7 @@ export const WhyChooseUs: React.FC = () => {
               Need assistance measuring your balcony or windows?
             </h3>
             <p className="text-orange-100 text-sm sm:text-base max-w-xl">
-              Contact ANL Safety Nets at {BUSINESS_CONFIG.displayPhone} to schedule a measurement visit in Kukatpally, LB Nagar, or Hyderabad.
+              Contact ANL Safety Nets at {BUSINESS_CONFIG.displayPhone} to schedule a measurement visit in Kukatpally, Tambaram, Tamil Nadu, or Hyderabad.
             </p>
           </div>
 

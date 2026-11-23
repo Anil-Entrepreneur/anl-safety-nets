@@ -181,7 +181,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     faqs: [
       {
-        q: "How do I request a site inspection in Kukatpally or LB Nagar?",
+        q: "How do I request a site inspection in Kukatpally or Tambaram, Tamil Nadu?",
         a: "You can click 'Request a Quote' or reach out via WhatsApp/Phone at 95773 93999 to schedule a convenient inspection."
       }
     ],

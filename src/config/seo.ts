@@ -19,7 +19,7 @@ export const SEO_CONFIG = {
   titleTemplate: "%s | ANL Safety Nets Hyderabad",
   
   defaultDescription:
-    "Professional safety nets and invisible grill installation in Hyderabad. Solutions for balconies, bird & pigeon protection, sports nets, and children safety in Kukatpally & LB Nagar.",
+    "Professional safety nets and invisible grill installation in Hyderabad. Solutions for balconies, bird & pigeon protection, sports nets, and children safety in Kukatpally & Tambaram, Tamil Nadu.",
   
   keywords: [
     "Safety nets installation",
@@ -33,7 +33,7 @@ export const SEO_CONFIG = {
     "Sports nets installation Hyderabad",
     "Cricket practice nets Hyderabad",
     "Safety nets in Kukatpally",
-    "Safety nets in LB Nagar",
+    "Safety nets in Tambaram, Tamil Nadu",
     "Balcony protection nets Hyderabad"
   ],
   

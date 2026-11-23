@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-orange-500 to-amber-500">
                 Safety Nets and Invisible Grills
               </span>{" "}
-              in Hyderabad, Tamil Nadu &amp; Andhra Pradesh
+              in Tamil Nadu, Hyderabad &amp; Andhra Pradesh
             </h1>
 
             {/* Supporting Text */}

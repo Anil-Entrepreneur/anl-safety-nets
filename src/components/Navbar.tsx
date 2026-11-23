@@ -50,9 +50,6 @@ export const Navbar: React.FC = () => {
                 <span className="font-cinematic font-bold text-xl sm:text-2xl text-slate-900 tracking-tight leading-tight">
                   ANL <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-500">Safety Nets</span>
                 </span>
-                <span className="text-[10px] tracking-wider uppercase font-semibold text-slate-500 hidden sm:block">
-                  Hyderabad • Kukatpally &amp; LB Nagar
-                </span>
               </div>
             </a>
 

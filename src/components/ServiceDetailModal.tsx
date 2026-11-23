@@ -25,7 +25,7 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        `${service.shortDescription} Professional installation across Kukatpally, LB Nagar, and Hyderabad by ANL Safety Nets.`
+        `${service.shortDescription} Professional installation across Kukatpally, Tambaram, Tamil Nadu, and Hyderabad by ANL Safety Nets.`
       );
     }
 

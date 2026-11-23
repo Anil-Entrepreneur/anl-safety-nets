@@ -34,7 +34,7 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
 
   const localityOptions = [
     "Kukatpally",
-    "LB Nagar",
+    "Tambaram, Tamil Nadu",
     "Miyapur",
     "Gachibowli",
     "Madhapur",
@@ -222,10 +222,10 @@ export const ContactAndQuote: React.FC<ContactAndQuoteProps> = ({ initialService
                     Primary Service Areas
                   </h4>
                   <p className="font-bold text-slate-900 text-base mt-0.5">
-                    Kukatpally &amp; LB Nagar, Hyderabad
+                    Tambaram, Tamil Nadu.
                   </p>
                   <p className="text-xs text-slate-600 mt-0.5">
-                    Serving residential apartments, gated communities, and individual homes across Hyderabad, Telangana.
+                    Serving residential apartments, gated communities, and individual homes across Tambaram, Tamil Nadu.
                   </p>
                 </div>
               </div>
